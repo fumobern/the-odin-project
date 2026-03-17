@@ -1,0 +1,98 @@
+body {
+	background-color: orange;
+}
+
+h2,
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	border: 3px solid rgb(255, 94, 0);
+	background-color: yellow;
+	color: rgb(255, 94, 0);
+	padding: 50px;
+	font-size: 64px;
+	font-family: Verdana, 'Times New Roman';
+}
+
+p,
+ul,
+ol {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.index ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	border: 4px;
+	font-size: 24px;
+	text-align: center;
+	list-style-position: outside;
+}
+
+.index li {
+	background-color: yellow;
+	border: 3px solid rgb(255, 94, 0);
+	margin: 16px auto;
+	padding: 12px;
+	font-size: 32px;
+	position: relative;
+	width: 6em;
+}
+
+.recipe #home {
+	width: 2.45em;
+	padding: 6px;
+	background-color: yellow;
+	border: 2px solid rgb(255, 94, 0);
+}
+
+.recipe img {
+	display: block;
+	margin: 0 auto;
+}
+
+.recipe #description {
+	margin: 30px auto;
+	background-color: yellow;
+	border: 3px solid rgb(255, 94, 0);
+	text-align: center;
+}
+
+.recipe #description,
+.recipe #ingredients,
+.recipe #steps {
+	margin: 30px auto;
+	background-color: yellow;
+	border: 3px solid rgb(255, 94, 0);
+	position: relative;
+	width: 35em;
+}
+
+.recipe #description h2 {
+	margin: 16px;
+	font-size: 3em;
+}
+
+.recipe #description p {
+	margin: 16px;
+	font-size: 1.4em;
+}
+
+.recipe h3 {
+	margin: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.recipe li {
+	border: 2px solid black;
+	position: relative;
+	width: 20em;
+	padding: 8px;
+	font-size: 1.18em;
+	margin: 8px auto;
+}

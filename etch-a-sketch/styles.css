@@ -1,0 +1,48 @@
+body {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 10vh;
+	justify-content: safe center;
+	background-color: black;
+	margin: 0;
+}
+
+.main-ctn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 960px;
+	flex: 0 1 auto;
+	--gap: 5px;
+	gap: var(--gap);
+}
+
+button {
+	width: 130px;
+	height: 50px;
+	font-size: 20px;
+	flex: 0 0 auto;
+	background-color: transparent;
+	color: greenyellow;
+	border: 2px solid yellowgreen;
+	border-radius: 6px;
+}
+
+button:hover {
+	border-color: yellow;
+	color: yellow;
+}
+
+.square {
+	background-color: white;
+	flex: 0 0;
+	flex-basis: calc(100% / var(--size) - (var(--size) - 1) * var(--gap) / (var(--size)));
+	aspect-ratio: 1 / 1;
+}
