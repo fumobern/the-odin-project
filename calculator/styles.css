@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+}
+
+header h1 {
+	margin: 0;
+	margin-top: 25px;
+	color: white;
+}
+
+#display {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 80px;
+	width: 300px;
+	padding: 6px;
+	background-color: greenyellow;
+	color: black;
+	justify-content: center;
+	align-items: flex-end;
+	font-family: 'Bitcount Single', 'Courier New', Courier, monospace;
+	font-size: 50px;
+}
+
+#btn-clear,
+#btn-del {
+	font-size: 35px;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 auto;
+	max-width: 300px;
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+li button {
+	font-size: 50px;
+	width: 100px;
+	aspect-ratio: 1 / 1;
+}
+
+@font-face {
+	font-family: "Bitcount Single";
+	src:
+		local("Bitcount Single"),
+		local("BitcountSingle"),
+		url("./fonts/bitcount-single/BitcountSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf") format("truetype");
+}
